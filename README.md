@@ -23,10 +23,21 @@ But: For universities or other teaching facilities the payment of 100$ for the A
 
 ## Build from source
 1. Setup flutter environment for your [platform](https://docs.flutter.dev/get-started/install).
-2. Clone this repository:  
-```git clone https://github.com/niels-beier/muesli_app.git && cd muesli_app```
-3. Run `flutter pub get`.
-4. You should be good to go.
+2. Clone this repository:
+   ```
+   git clone https://github.com/niels-beier/muesli_app.git && cd muesli_app
+   ```
+3. Resolve the dependencies and generate the translation files:
+   ```
+   flutter pub get
+   flutter gen-l10n
+   ```
+4. Build & flash the app:
+   ```
+   Option A: development
+   $ flutter run
+   ```
+5. You should be good to go.
 
 ## Issues
 For suggestions and bug reports, just open an issue. When reporting a bug or an error it would be very helpful to include log files which can be generated in the settings of the app.
