@@ -8,7 +8,7 @@
 
 
     <application
-        android:label="muesli_app"
+        android:label="Müsli"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
